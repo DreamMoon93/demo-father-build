@@ -1,0 +1,29 @@
+{
+  "name": "demo-father-build",
+  "version": "1.0.0",
+  "description": "使用 father 构建组件库的一个 Demo",
+  "main": "./dist/index.js",
+  "module": "./dist/index.esm.js",
+  "unpkg": "./dist/index.umd.js",
+  "scripts": {
+    "doc:dev": "father doc dev",
+    "doc:build": "father doc build",
+    "build": "father build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "father": "^2.29.1"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6"
+  },
+  "peerDependencies": {
+    "react": "^16.8.5"
+  },
+  "files": [
+    "dist"
+  ]
+}

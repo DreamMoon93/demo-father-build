@@ -1,0 +1,6 @@
+/node_modules
+/.docz
+/dist
+/*.tgz
+/yarn.lock
+/.doc
