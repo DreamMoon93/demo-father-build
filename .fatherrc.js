@@ -6,5 +6,8 @@ export default {
     globals: {
       react: "React"
     }
+  },
+  doc: {
+    base: "/demo-father-build"
   }
 };
