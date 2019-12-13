@@ -1,6 +1,7 @@
 import Button from "./Button";
 
-
-export const queryString = () => {
+const queryString = () => {
   return window.location.search;
 };
+
+export { Button, queryString };

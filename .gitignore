@@ -4,3 +4,5 @@
 /*.tgz
 /yarn.lock
 /.doc
+/example/dist
+/example/pages/.umi
